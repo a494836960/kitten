@@ -303,7 +303,7 @@ dojo.declare("classes.managers.BuildingsManager", com.nuclearunicorn.core.TabMan
 		prices: [
 			{ name : "catnip", val: 10 }
 		],
-		priceRatio: 1.12,
+		priceRatio: 1,
 		effects: {
 			"catnipPerTickBase": 0.125
 		},
@@ -320,7 +320,7 @@ dojo.declare("classes.managers.BuildingsManager", com.nuclearunicorn.core.TabMan
 					{ name : "catnip", val: 100 },
 					{ name : "wood", val: 10 }
 				],
-				priceRatio: 1.15,
+				priceRatio: 1,
 				effects: {
 					"catnipDemandRatio": -0.005
 				},
@@ -333,7 +333,7 @@ dojo.declare("classes.managers.BuildingsManager", com.nuclearunicorn.core.TabMan
 				prices: [
 					{ name : "titanium", val: 250 }
 				],
-				priceRatio: 1.15,
+				priceRatio: 1,
 				action: function(self, game) {
 					self.effects = {
 						"energyProduction": self.calculateEnergyProduction(game, game.calendar.season)
@@ -378,7 +378,7 @@ dojo.declare("classes.managers.BuildingsManager", com.nuclearunicorn.core.TabMan
 				prices: [
 					{ name : "minerals", val: 75 }
 				],
-				priceRatio: 1.12,
+				priceRatio: 1,
 				effects: {
 					"catnipRatio" : 0.03
 				},
@@ -392,7 +392,7 @@ dojo.declare("classes.managers.BuildingsManager", com.nuclearunicorn.core.TabMan
 					{ name : "titanium", val: 2500 },
 					{ name : "concrate", val: 100 }
 				],
-				priceRatio: 1.15,
+				priceRatio: 1,
 				effects: {
 					"energyProduction" : 5
 				},
@@ -425,7 +425,7 @@ dojo.declare("classes.managers.BuildingsManager", com.nuclearunicorn.core.TabMan
 		prices: [
 			{ name : "wood", val: 5 }
 		],
-		priceRatio: 2.5,
+		priceRatio: 1,
 		defaultUnlockable: true,
 		unlocks: {
 			//unlock village tab
@@ -447,7 +447,7 @@ dojo.declare("classes.managers.BuildingsManager", com.nuclearunicorn.core.TabMan
 			{ name : "wood", val: 200 },
 			{ name : "minerals", val: 250 }
 		],
-		priceRatio: 1.15,
+		priceRatio: 1,
 		effects: {
 			"manpowerMax": 50,
 			"maxKittens": 1
@@ -466,7 +466,7 @@ dojo.declare("classes.managers.BuildingsManager", com.nuclearunicorn.core.TabMan
 			{ name : "slab", val: 185 },
 			{ name : "steel", val: 75 }
 		],
-		priceRatio: 1.15,
+		priceRatio: 1,
 		effects: {
 			"manpowerMax": 50,
 			"maxKittens": 1
@@ -510,7 +510,7 @@ dojo.declare("classes.managers.BuildingsManager", com.nuclearunicorn.core.TabMan
 				stageUnlocked : false
 			}
 		],
-		priceRatio: 1.15,
+		priceRatio: 1,
 		defaultUnlockable: true,
 		unlocks: {
 			tabs: ["science"],
@@ -571,7 +571,7 @@ dojo.declare("classes.managers.BuildingsManager", com.nuclearunicorn.core.TabMan
 			{ name : "minerals", val: 70 },
 			{ name : "science", val: 100 }
 		],
-		priceRatio: 1.15,
+		priceRatio: 1,
 		effects: {
 			"scienceRatio": 0.2,
 			"skillXP": 0.0005,
@@ -593,7 +593,7 @@ dojo.declare("classes.managers.BuildingsManager", com.nuclearunicorn.core.TabMan
 			{ name : "slab", val: 35 },
 			{ name : "scaffold", val: 50 }
 		],
-		priceRatio: 1.10,
+		priceRatio: 1.00,
 		upgrades: {
 			buildings: ["library"]
 		},
@@ -616,7 +616,7 @@ dojo.declare("classes.managers.BuildingsManager", com.nuclearunicorn.core.TabMan
 			{ name : "slab", val: 100 },
 			{ name : "alloy", val: 25 }
 		],
-		priceRatio: 1.10,
+		priceRatio: 1.00,
 		effects: {
 			"scienceRatio": 0.35,
 			"refineRatio": 0.1,
@@ -677,7 +677,7 @@ dojo.declare("classes.managers.BuildingsManager", com.nuclearunicorn.core.TabMan
 		prices: [
 			{ name : "wood", val: 50 }
 		],
-		priceRatio: 1.75,
+		priceRatio: 10,
 		effects: {
 			"catnipMax": 0,
 			"woodMax": 0,
@@ -710,7 +710,7 @@ dojo.declare("classes.managers.BuildingsManager", com.nuclearunicorn.core.TabMan
 			{ name : "beam", val: 1.5 },
 			{ name : "slab", val: 2 }
 		],
-		priceRatio: 1.15,
+		priceRatio: 1,
 		effects: {
 			"catnipMax": 0,
 			"woodMax": 0,
@@ -752,7 +752,7 @@ dojo.declare("classes.managers.BuildingsManager", com.nuclearunicorn.core.TabMan
 			{ name : "plate", val: 75 },
 			{ name : "scaffold", val: 5 }
 		],
-		priceRatio: 1.15,
+		priceRatio: 1,
 		effects: {
 			"catnipMax": 0,
 			"woodMax": 0,
@@ -805,7 +805,7 @@ dojo.declare("classes.managers.BuildingsManager", com.nuclearunicorn.core.TabMan
 		prices: [
 			{ name : "wood", val: 100 }
 		],
-		priceRatio: 1.15,
+		priceRatio: 1,
 		unlocks: {
 			jobs: ["miner"]
 		},
@@ -841,7 +841,7 @@ dojo.declare("classes.managers.BuildingsManager", com.nuclearunicorn.core.TabMan
 			{ name : "steel", val: 125 },
 			{ name : "scaffold", val: 50 }
 		],
-		priceRatio: 1.15,
+		priceRatio: 1,
 		effects: {
 			"mineralsRatio": 0.35,
 			"coalPerTickBase": 0.015,
@@ -867,7 +867,7 @@ dojo.declare("classes.managers.BuildingsManager", com.nuclearunicorn.core.TabMan
 		prices: [
 			{ name : "minerals", val: 200 }
 		],
-		priceRatio: 1.15,
+		priceRatio: 1,
 		effects: {
 			"woodPerTickCon": -0.05,
 			"mineralsPerTickCon": -0.1,
@@ -946,7 +946,7 @@ dojo.declare("classes.managers.BuildingsManager", com.nuclearunicorn.core.TabMan
 			{ name : "steel", val: 100 },
 			{ name : "blueprint",  val: 1 }
 		],
-		priceRatio: 1.15,
+		priceRatio: 1,
 		effects: {
 			"mineralsPerTickCon" : -1.5,
 			"coalPerTickCon": 0,
@@ -1048,7 +1048,7 @@ dojo.declare("classes.managers.BuildingsManager", com.nuclearunicorn.core.TabMan
 			{ name : "gear",  val: 20 },
 			{ name : "blueprint",  val: 1 }
 		],
-		priceRatio: 1.25,
+		priceRatio: 1,
 		effects: {
 			"coalRatioGlobal" : 0,
 			"manuscriptPerTickProd": 0,
@@ -1143,7 +1143,7 @@ dojo.declare("classes.managers.BuildingsManager", com.nuclearunicorn.core.TabMan
 			{ name : "alloy", val: 10 },
 			{ name : "blueprint",  val: 1 }
 		],
-		priceRatio: 1.25,
+		priceRatio: 1,
 		effects: {
 			"oilPerTick" : -0.05,
 			"energyProduction" : 5,
@@ -1172,7 +1172,7 @@ dojo.declare("classes.managers.BuildingsManager", com.nuclearunicorn.core.TabMan
 			{name : "minerals", val: 250},
 			{name : "iron", val: 50}
 		],
-		priceRatio: 1.15,
+		priceRatio: 1,
 		effects: {
 			"woodRatio" : 0
 		},
@@ -1190,7 +1190,7 @@ dojo.declare("classes.managers.BuildingsManager", com.nuclearunicorn.core.TabMan
 			{name : "gear",  val: 25},
 			{name : "scaffold", val: 25}
 		],
-		priceRatio: 1.15,
+		priceRatio: 1,
 		effects: {
 			"oilPerTickBase" : 0.02,
 			"oilMax" : 1500,
@@ -1231,7 +1231,7 @@ dojo.declare("classes.managers.BuildingsManager", com.nuclearunicorn.core.TabMan
 			{ name : "wood", val: 100 },
 			{ name : "minerals", val: 400 }
 		],
-		priceRatio: 1.15,
+		priceRatio: 1,
 		unlocks: {
 			tabs: ["workshop"]
 		},
@@ -1248,7 +1248,7 @@ dojo.declare("classes.managers.BuildingsManager", com.nuclearunicorn.core.TabMan
 			{ name : "plate", val: 2500},
 			{ name : "concrate", val: 15}
 		],
-		priceRatio: 1.15,
+		priceRatio: 1,
 		effects: {
 			"craftRatio": 0,
 			"energyConsumption": 0
@@ -1303,7 +1303,7 @@ dojo.declare("classes.managers.BuildingsManager", com.nuclearunicorn.core.TabMan
 			{ name : "concrate",    val: 50},
 			{ name : "blueprint",   val: 25}
 		],
-		priceRatio: 1.15,
+		priceRatio: 1,
 		upgrades: {
 			buildings: ["harbor"]
 		},
@@ -1345,7 +1345,7 @@ dojo.declare("classes.managers.BuildingsManager", com.nuclearunicorn.core.TabMan
 			{ name : "uranium",   	val: 25   },
 			{ name : "concrate",    val: 125  }
 		],
-		priceRatio: 1.15,
+		priceRatio: 1,
 		effects: {
 			"titaniumPerTickCon" : -0.015,
 			"uraniumPerTickAutoprod" : 0.0025,
@@ -1412,7 +1412,7 @@ dojo.declare("classes.managers.BuildingsManager", com.nuclearunicorn.core.TabMan
 			{ name : "minerals", val: 200 },
 			{ name : "gold", val: 10 }
 		],
-		priceRatio: 1.15,
+		priceRatio: 1,
 		effects: {
 			"fursDemandRatio"   : -0.04,
 			"ivoryDemandRatio"  : -0.04,
@@ -1433,7 +1433,7 @@ dojo.declare("classes.managers.BuildingsManager", com.nuclearunicorn.core.TabMan
 			{ name : "gold", val: 500 },
 			{ name : "plate", val: 200 }
 		],
-		priceRatio: 1.15,
+		priceRatio: 1,
 		effects: {
 			"goldPerTickCon" : -0.005,
 			"manpowerPerTickCon" : -0.75,
@@ -1490,7 +1490,7 @@ dojo.declare("classes.managers.BuildingsManager", com.nuclearunicorn.core.TabMan
 			{ name : "spice", val: 5 },
 			{ name : "parchment", val: 375 }
 		],
-		priceRatio: 1.5,
+		priceRatio: 1,
 		effects: {
 			"catnipPerTickCon" : -1,
 			"spicePerTickCon" : -0.1,
@@ -1540,7 +1540,7 @@ dojo.declare("classes.managers.BuildingsManager", com.nuclearunicorn.core.TabMan
 					{ name : "minerals", val: 1200 },
 					{ name : "parchment", val: 3 }
 				],
-				priceRatio: 1.15,
+				priceRatio: 1,
 				effects: {
 					"unhappinessRatio" : -0.048,
 					"culturePerTickBase" : 0.005,
@@ -1556,7 +1556,7 @@ dojo.declare("classes.managers.BuildingsManager", com.nuclearunicorn.core.TabMan
 					{ name : "iron", val: 1250 },
 					{ name : "titanium", val: 75 }
 				],
-				priceRatio: 1.18,
+				priceRatio: 1,
 				effects: {
 					"unhappinessRatio" : -0.75,
 					"culturePerTickBase" : 1,
@@ -1599,7 +1599,7 @@ dojo.declare("classes.managers.BuildingsManager", com.nuclearunicorn.core.TabMan
 			{ name : "culture",  val: 250 },
 			{ name : "parchment", val: 250 }
 		],
-		priceRatio: 1.15,
+		priceRatio: 1,
 		effects: {
 			"culturePerTickBase" : 0,
 			"faithPerTickBase" : 0,
@@ -1631,7 +1631,7 @@ dojo.declare("classes.managers.BuildingsManager", com.nuclearunicorn.core.TabMan
 			{ name : "plate", val: 15 },
 			{ name : "manuscript", val: 10 }
 		],
-		priceRatio: 1.15,
+		priceRatio: 1,
 		effects: {
 			"culturePerTickBase" : 0,
 			"faithPerTickBase" : 0,
@@ -1707,7 +1707,7 @@ dojo.declare("classes.managers.BuildingsManager", com.nuclearunicorn.core.TabMan
 		prices: [
 			{ name : "unicorns", val: 2 }
 		],
-		priceRatio: 1.75,
+		priceRatio: 1,
 		effects: {
 			"catnipDemandRatio": -0.0015,
 			"unicornsPerTickBase" : 0.001
@@ -1726,7 +1726,7 @@ dojo.declare("classes.managers.BuildingsManager", com.nuclearunicorn.core.TabMan
 			{ name : "blueprint", val: 1 },
 			{ name : "megalith", val: 50 }
 		],
-		priceRatio: 1.25,
+		priceRatio: 1,
 		effects: {
 			"cultureMaxRatio": 0.08
 		},
@@ -1747,7 +1747,7 @@ dojo.declare("classes.managers.BuildingsManager", com.nuclearunicorn.core.TabMan
 			{ name : "timeCrystal", val: 1 },
 			{ name : "blueprint", 	val: 100 }
 		],
-		priceRatio: 1.25,
+		priceRatio: 1,
 		effects: {
 			"resStasisRatio": 0.015, //1.5% of resources will be preserved
 			"temporalFluxProduction" : 0,
@@ -1772,7 +1772,7 @@ dojo.declare("classes.managers.BuildingsManager", com.nuclearunicorn.core.TabMan
 			{ name : "antimatter", val: 125 },
 			{ name : "science", 	val: 500000 }
 		],
-		priceRatio: 1.15,
+		priceRatio: 1,
 		effects: {
 			"gflopsPerTickBase": 0.02,
 			"energyConsumption": 2
@@ -1821,7 +1821,7 @@ dojo.declare("classes.managers.BuildingsManager", com.nuclearunicorn.core.TabMan
 		prices: [
 			{ name : "bloodstone", val: 1 }
 		],
-		priceRatio: 1.35,
+		priceRatio: 1,
 		zebraRequired: 5,
 		effects: {
 			"hunterRatio" : 0.05
@@ -1834,7 +1834,7 @@ dojo.declare("classes.managers.BuildingsManager", com.nuclearunicorn.core.TabMan
 		prices: [
 			{ name : "bloodstone", val: 5 }
 		],
-		priceRatio: 1.15,
+		priceRatio: 1,
 		zebraRequired: 10,
 		effects: {}
 	},{
@@ -1845,7 +1845,7 @@ dojo.declare("classes.managers.BuildingsManager", com.nuclearunicorn.core.TabMan
 		prices: [
 			{ name : "bloodstone", val: 50 }
 		],
-		priceRatio: 1.15,
+		priceRatio: 1,
 		zebraRequired: 50,
 		effects: {}
 	}
@@ -2673,7 +2673,7 @@ dojo.declare("com.nuclearunicorn.game.ui.tab.BuildingsModern", com.nuclearunicor
 					if (group.name == "population"){
 						continue;
 					}
-				}
+				} 
 
 				btn.update();
 				if (!mdl.visible){
